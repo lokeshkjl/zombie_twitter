@@ -35,13 +35,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :test, :development do
-	gem 'turn'
-	gem 'rspec-rails'	
-	gem 'capybara'
-	gem 'guard-rspec'
+#group :test, :development do
+#	gem 'turn'
+#   gem 'rspec-rails'	
+#	gem 'capybara'
+#	gem 'guard-rspec'
 #	gem 'growl_notify'
-end
+#end
 
 group :production do
   gem 'pg'
