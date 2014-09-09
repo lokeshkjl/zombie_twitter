@@ -3,8 +3,24 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
+
+group :development, :test do
 # Use mysql as the database for Active Record
-gem 'mysql2'
+  gem 'mysql2'
+  gem 'rspec-rails', '2.13.1'
+end
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
+
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor', '0.0.2'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,10 +58,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 #	gem 'guard-rspec'
 #	gem 'growl_notify'
 #end
-
-group :production do
-  gem 'pg'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
