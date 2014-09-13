@@ -8,12 +8,20 @@ group :development, :test do
 # Use mysql as the database for Active Record
   gem 'mysql2'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'minitest'
+    # Uncomment these lines on Windows.
+  gem 'rb-notifu'
+  gem 'wdm'
 end
 
 

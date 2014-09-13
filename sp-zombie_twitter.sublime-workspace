@@ -8,98 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "config/environments/development.rb",
-			"settings":
-			{
-				"buffer_size": 1422,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/environments/production.rb",
-			"settings":
-			{
-				"buffer_size": 3313,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/tweet.rb",
-			"settings":
-			{
-				"buffer_size": 57,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/zombie.rb",
-			"settings":
-			{
-				"buffer_size": 56,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/tweets/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 243,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/tweets/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 595,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/zombies/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 384,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1652,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "spec/requests/static_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 391,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "spec/spec_helper.rb",
-			"settings":
-			{
-				"buffer_size": 1772,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/home.html.erb",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/help.html.erb",
-			"settings":
-			{
-				"buffer_size": 251,
+				"buffer_size": 994,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,6 +40,30 @@
 	},
 	"file_history":
 	[
+		"/C/row/dev/zombie_twitter/config/environments/development.rb",
+		"/C/row/dev/zombie_twitter/config/environments/production.rb",
+		"/C/row/dev/zombie_twitter/config/unicorn.rb",
+		"/C/row/dev/zombie_twitter/app/models/tweet.rb",
+		"/C/row/dev/zombie_twitter/app/models/zombie.rb",
+		"/C/row/dev/zombie_twitter/app/views/tweets/show.html.erb",
+		"/C/row/dev/zombie_twitter/app/views/tweets/index.html.erb",
+		"/C/row/dev/zombie_twitter/app/views/zombies/show.html.erb",
+		"/C/row/dev/zombie_twitter/Gemfile",
+		"/C/row/dev/zombie_twitter/spec/spec_helper.rb",
+		"/C/row/dev/zombie_twitter/app/views/static_pages/home.html.erb",
+		"/C/row/dev/zombie_twitter/app/views/static_pages/help.html.erb",
+		"/C/row/dev/zombie_twitter/config/routes.rb",
+		"/C/row/dev/zombie_twitter/app/controllers/static_pages_controller.rb",
+		"/C/row/dev/zombie_twitter/app/views/static_pages/about.html.erb",
+		"/C/row/dev/zombie_twitter/app/views/layouts/application.html.erb",
+		"/C/row/dev/zombie_twitter/config/environment.rb",
+		"/C/row/dev/zombie_twitter/.gitignore",
+		"/C/row/dev/zombie_twitter/Guardfile",
+		"/C/row/dev/zombie_twitter/spec/requests/posts_spec.rb",
+		"/C/row/dev/zombie_twitter/spec/controllers/posts_controller_spec.rb",
+		"/C/row/dev/zombie_twitter/spec/helpers/posts_helper_spec.rb",
+		"/C/row/dev/zombie_twitter/spec/models/post_spec.rb",
+		"/C/row/dev/zombie_twitter/.rspec",
 		"/C/row/dev/zombie_twitter/db/migrate/20140902192215_create_zombies.rb",
 		"/C/row/dev/zombie_twitter/config/database.yml",
 		"/C/row/dev/hello_world/app/views/users/edit.html.erb",
@@ -149,6 +85,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post",
+			"authentic",
+			"production",
+			":production",
+			"rails_env",
+			"set",
+			"rails",
+			"unicorn",
+			"Ruby on Rails Tutorial Sample App",
 			"pg",
 			"new_zombie_path",
 			"controller"
@@ -159,6 +104,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"find ma buddy"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -169,263 +115,23 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/environments/development.rb",
-					"settings":
-					{
-						"buffer_size": 1422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/environments/production.rb",
-					"settings":
-					{
-						"buffer_size": 3313,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								637,
-								637
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/models/tweet.rb",
-					"settings":
-					{
-						"buffer_size": 57,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/models/zombie.rb",
-					"settings":
-					{
-						"buffer_size": 56,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								51,
-								51
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/tweets/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/tweets/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 595,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								524,
-								524
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/zombies/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								296,
-								296
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1652,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								337,
-								337
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "spec/requests/static_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 391,
+						"buffer_size": 994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								386
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "spec/spec_helper.rb",
-					"settings":
-					{
-						"buffer_size": 1772,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
+								509,
+								509
 							]
 						],
 						"settings":
@@ -435,59 +141,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/views/static_pages/home.html.erb",
-					"settings":
-					{
-						"buffer_size": 147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/views/static_pages/help.html.erb",
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -528,7 +182,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
