@@ -1,6 +1,11 @@
-<h1>Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<div class="center hero-unit">
+  <h1>Looking for those awesome people to do something? Find them here!</h1>
+
+  <h2>
+    There are people out there who would like to do the same thing as you and are looking for a partner themselves.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
