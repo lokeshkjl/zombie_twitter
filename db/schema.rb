@@ -11,20 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140913140106) do
-
-  create_table "posts", force: true do |t|
-    t.string   "title"
-    t.string   "description"
-    t.datetime "startTime"
-    t.datetime "endTime"
-    t.integer  "numberOfPeople"
-    t.integer  "state"
-    t.integer  "user_id"
-    t.integer  "location_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(version: 20140916010741) do
 
   create_table "tweets", force: true do |t|
     t.string   "status"
@@ -34,11 +21,14 @@ ActiveRecord::Schema.define(version: 20140913140106) do
   end
 
   create_table "users", force: true do |t|
-    t.string   "first_name"
-    t.string   "last_name"
+    t.string   "name"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "password_digest"
   end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
   create_table "zombies", force: true do |t|
     t.string   "name"
