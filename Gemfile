@@ -25,6 +25,7 @@ group :test do
     # Uncomment these lines on Windows.
   gem 'rb-notifu'
   gem 'wdm'
+  gem 'factory_girl_rails', '4.2.0'
 end
 
 
