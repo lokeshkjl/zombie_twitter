@@ -8,111 +8,20 @@
 	"buffers":
 	[
 		{
-			"file": "spec/requests/static_pages_spec.rb",
+			"file": "spec/requests/user_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 755,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/requests/opt_static_pages_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1474,
+				"buffer_size": 1565,
 				"line_ending": "Windows",
 				"name": "require 'spec_helper'"
-			}
-		},
-		{
-			"file": "spec/helpers/application_helper_spec.rb",
-			"settings":
-			{
-				"buffer_size": 410,
-				"line_ending": "Windows",
-				"name": "require 'spec_helper'"
-			}
-		},
-		{
-			"file": "spec/models/user_spec.rb",
-			"settings":
-			{
-				"buffer_size": 2865,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20140916010741_add_password_digest_to_users.rb",
-			"settings":
-			{
-				"buffer_size": 129,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 396,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 663,
+				"buffer_size": 787,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/custom.css.scss",
-			"settings":
-			{
-				"buffer_size": 2297,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1929,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/requests/users_spec.rb",
-			"settings":
-			{
-				"buffer_size": 48,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1968,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/factories.rb",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Windows",
-				"name": "FactoryGirl.define do"
-			}
-		},
-		{
-			"file": "spec/requests/user_pages_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1107,
-				"line_ending": "Windows",
-				"name": "require 'spec_helper'"
 			}
 		}
 	],
@@ -140,37 +49,42 @@
 	},
 	"file_history":
 	[
+		"/C/row/dev/zombie_twitter/spec/requests/static_pages_spec.rb",
+		"/C/row/dev/zombie_twitter/spec/requests/opt_static_pages_spec.rb",
+		"/C/row/dev/zombie_twitter/spec/helpers/application_helper_spec.rb",
+		"/C/row/dev/zombie_twitter/spec/models/user_spec.rb",
+		"/C/row/dev/zombie_twitter/db/migrate/20140916010741_add_password_digest_to_users.rb",
+		"/C/row/dev/zombie_twitter/app/models/user.rb",
+		"/C/row/dev/zombie_twitter/app/views/layouts/application.html.erb",
+		"/C/row/dev/zombie_twitter/app/assets/stylesheets/custom.css.scss",
+		"/C/row/dev/zombie_twitter/config/routes.rb",
+		"/C/row/dev/zombie_twitter/spec/requests/users_spec.rb",
+		"/C/row/dev/zombie_twitter/Gemfile",
+		"/C/row/dev/zombie_twitter/spec/factories.rb",
+		"/C/row/dev/zombie_twitter/app/controllers/users_controller.rb",
+		"/C/row/dev/zombie_twitter/config/environments/production.rb",
+		"/C/row/dev/zombie_twitter/app/helpers/users_helper.rb",
+		"/C/row/dev/zombie_twitter/app/example_user.rb",
 		"/C/row/dev/zombie_twitter/app/views/static_pages/home.html.erb",
 		"/C/row/dev/zombie_twitter/app/views/users/new.html.erb",
 		"/C/row/dev/zombie_twitter/app/views/users/show.html.erb",
 		"/C/row/dev/zombie_twitter/config/environments/test.rb",
-		"/C/row/dev/zombie_twitter/app/helpers/users_helper.rb",
-		"/C/row/dev/zombie_twitter/app/controllers/users_controller.rb",
 		"/C/row/dev/zombie_twitter/app/views/shared/_error_messages.html.erb",
-		"/C/row/dev/zombie_twitter/app/example_user.rb",
 		"/C/row/dev/zombie_twitter/app/models/example_user.rb",
 		"/C/row/dev/zombie_twitter/app/helpers/application_helper.rb",
-		"/C/row/dev/zombie_twitter/app/views/layouts/application.html.erb",
 		"/C/row/dev/zombie_twitter/app/views/layouts/_header.html.erb",
 		"/C/row/dev/zombie_twitter/app/views/layouts/_footer.html.erb",
 		"/C/row/dev/zombie_twitter/spec/support/utilities.rb",
-		"/C/row/dev/zombie_twitter/Gemfile",
 		"/C/row/dev/zombie_twitter/config/application.rb",
-		"/C/row/dev/zombie_twitter/app/assets/stylesheets/custom.css.scss",
-		"/C/row/dev/zombie_twitter/config/routes.rb",
 		"/C/row/dev/zombie_twitter/app/controllers/static_pages_controller.rb",
 		"/C/row/dev/zombie_twitter/app/views/static_pages/contact.html.erb",
-		"/C/row/dev/zombie_twitter/spec/requests/users_spec.rb",
 		"/C/row/dev/zombie_twitter/db/migrate/20140913140106_create_users.rb",
 		"/C/row/dev/zombie_twitter/db/migrate/20140914134253_create_users.rb",
 		"/C/row/dev/zombie_twitter/db/migrate/20140907140500_create_posts.rb",
-		"/C/row/dev/zombie_twitter/spec/models/user_spec.rb",
 		"/C/row/dev/zombie_twitter/app/views/users/index.html.erb",
 		"/C/row/dev/zombie_twitter/spec/views/users/edit.html.erb_spec.rb",
-		"/C/row/dev/zombie_twitter/app/models/user.rb",
 		"/C/row/dev/zombie_twitter/db/migrate/20140914164309_add_index_to_users_email.rb",
 		"/C/row/dev/zombie_twitter/config/environments/development.rb",
-		"/C/row/dev/zombie_twitter/config/environments/production.rb",
 		"/C/row/dev/zombie_twitter/config/unicorn.rb",
 		"/C/row/dev/zombie_twitter/app/models/tweet.rb",
 		"/C/row/dev/zombie_twitter/app/models/zombie.rb",
@@ -209,6 +123,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"end",
+			"ssl",
 			".save",
 			"'/static_pages/contact'",
 			"'/static_pages/help'",
@@ -253,189 +169,52 @@
 	"groups":
 	[
 		{
-			"selected": 12,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/requests/static_pages_spec.rb",
+					"file": "spec/requests/user_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 755,
+						"buffer_size": 1565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								587,
-								587
+								1395,
+								1395
 							]
 						],
 						"settings":
 						{
+							"auto_name": "require 'spec_helper'",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "spec/requests/opt_static_pages_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1155,
-								1155
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require 'spec_helper'",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 448.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "spec/helpers/application_helper_spec.rb",
-					"settings":
-					{
-						"buffer_size": 410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								278,
-								278
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require 'spec_helper'",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "spec/models/user_spec.rb",
-					"settings":
-					{
-						"buffer_size": 2865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2860,
-								2860
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 930.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "db/migrate/20140916010741_add_password_digest_to_users.rb",
-					"settings":
-					{
-						"buffer_size": 129,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								57,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 663,
+						"buffer_size": 787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								634,
-								634
+								633,
+								633
 							]
 						],
 						"settings":
@@ -446,172 +225,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/assets/stylesheets/custom.css.scss",
-					"settings":
-					{
-						"buffer_size": 2297,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								543,
-								543
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1929,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "spec/requests/users_spec.rb",
-					"settings":
-					{
-						"buffer_size": 48,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1968,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								637,
-								637
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "spec/factories.rb",
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								103
-							]
-						],
-						"settings":
-						{
-							"auto_name": "FactoryGirl.define do",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "spec/requests/user_pages_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								855,
-								862
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require 'spec_helper'",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 103.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -660,6 +273,38 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"applicationht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"userpagess",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"usershe",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"user",
+				"app/example_user.rb"
+			],
+			[
+				"user.r",
+				"app/models/user.rb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"userscon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.erb"
+			],
 			[
 				"custom",
 				"app/assets/stylesheets/custom.css.scss"
