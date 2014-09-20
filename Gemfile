@@ -6,12 +6,15 @@ gem 'rails', '4.1.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
 # Use mysql as the database for Active Record
   gem 'mysql2'
-  gem 'rspec-rails', '2.13.1'
-  gem 'guard-rspec', '2.5.0'
+  gem 'rspec-rails', '2.14.0'
+  gem 'guard-rspec'
 
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
